@@ -1,0 +1,22 @@
+/* This CSS is shared between the Header, Footer, and Nav Components */
+
+.nlink {
+    text-decoration: none;
+}
+
+.nlink-active {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 20%;
+}
