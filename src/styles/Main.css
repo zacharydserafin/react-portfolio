@@ -1,0 +1,72 @@
+/* This CSS is shared between the Header, Footer, and Nav Components, as well as providing some baseline styles for the whole application (color palate, fonts, etc.) */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+    --jet:#2A2B2A;
+    --emerald:#0CCE6B;
+    --ultra-violet:#6461A0;
+    --platinum:#E6E6E6;
+    --powder-blue:#B8C5D6;
+}
+
+html {
+    background-color: var(--powder-blue);
+}
+
+body {
+    font-family: 'Averia Sans Libre', cursive !important;
+}
+
+.header {
+    background-color: var(--powder-blue);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer {
+    background-color: var(--powder-blue);
+}
+
+ul.list-group li.plat-back {
+    background-color: var(--platinum);
+    border-color: var(--jet);
+}
+
+ul.list-group li.violet-back {
+    background-color: var(--ultra-violet);
+    border-color: var(--jet);
+}
+
+.nlink {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nlink-active {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-logo {
+    margin: 20px;
+    text-align: center;
+}
+
+.footer-logo a {
+    display: inline-block;
+    width: fit-content;
+}
+
+.footer-logo img {
+    max-width: 50px;
+}
