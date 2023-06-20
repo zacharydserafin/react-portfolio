@@ -4,8 +4,8 @@ import '../styles/Main.css';
 // Use currentPage when styling to conditionally set active/non-active link className via ternary
 export default function Nav({ currentPage, handlePageChange }) {
     return (
-        <ul className="list-group">
-            <li className="list-group-item">
+        <ul className="list-group list-group-horizontal">
+            <li className={`list-group-item list-group-item-action flex-fill text-center position-relative ${currentPage === 'About' ? 'violet-back' : 'plat-back'}`}>
                 <a
                     href="#about"
                     onClick={() => handlePageChange('About')}
@@ -14,7 +14,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                     About Me
                 </a>
             </li>
-            <li className="list-group-item">
+            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Contact' ? 'violet-back' : 'plat-back'}`}>
                 <a
                     href="#contact"
                     onClick={() => handlePageChange('Contact')}
@@ -23,7 +23,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                     Contact
                 </a>
             </li>
-            <li className="list-group-item">
+            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Portfolio' ? 'violet-back' : 'plat-back'}`}>
                 <a
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -32,7 +32,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                     Portfolio
                 </a>
             </li>
-            <li className="list-group-item">
+            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Resume' ? 'violet-back' : 'plat-back'}`}>
                 <a
                     href="#resume"
                     onClick={() => handlePageChange('Resume')}
