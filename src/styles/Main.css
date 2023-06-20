@@ -12,6 +12,7 @@
 
 html {
     background-color: var(--powder-blue);
+    overflow-x: hidden;
 }
 
 body {
