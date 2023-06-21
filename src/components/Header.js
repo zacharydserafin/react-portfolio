@@ -5,7 +5,7 @@ import '../styles/Main.css';
 export default function Header({ currentPage, handlePageChange }) {
   return (
     <div className="header">
-      <h1 className="text-center">Zachary D. Serafin</h1>
+      <h1 className="text-center header-title">Zachary D. Serafin</h1>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
   );

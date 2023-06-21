@@ -11,7 +11,7 @@
 }
 
 html {
-    background-color: var(--powder-blue);
+    background-color: var(--ultra-violet);
     overflow-x: hidden;
 }
 
@@ -19,14 +19,22 @@ body {
     font-family: 'Averia Sans Libre', cursive !important;
 }
 
+.page {
+    background-color: var(--jet);
+}
+
 .header {
-    background-color: var(--powder-blue);
+    background-color: var(--ultra-violet);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
+.header-title {
+    color: var(--platinum);
+}
+
 .footer {
-    background-color: var(--powder-blue);
+    background-color: var(--ultra-violet);
 }
 
 ul.list-group li.plat-back {
@@ -34,8 +42,8 @@ ul.list-group li.plat-back {
     border-color: var(--jet);
 }
 
-ul.list-group li.violet-back {
-    background-color: var(--ultra-violet);
+ul.list-group li.green-back {
+    background-color: var(--emerald);
     border-color: var(--jet);
 }
 
@@ -70,4 +78,8 @@ ul.list-group li.violet-back {
 
 .footer-logo img {
     max-width: 50px;
+}
+
+div.page div.card {
+    background-color: var(--platinum);
 }

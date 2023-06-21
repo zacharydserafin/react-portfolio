@@ -1,0 +1,9 @@
+.contact-title {
+    color: var(--emerald);
+    border-radius: 5px;
+}
+
+#contact-button {
+    color: var(--emerald);
+    border-color: var(--powder-blue);
+}
