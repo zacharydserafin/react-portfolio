@@ -12,7 +12,7 @@ export default function About() {
           </div>
         </div>
         <div className="col-md-4">
-          <img src="/assets/images/profile-image.jpg" className="img-fluid rounded-start" alt="Zachary D Serafin"/>
+          <img src="./assets/images/profile-image.jpg" className="img-fluid rounded-start" alt="Zachary D Serafin"/>
         </div>
       </div>
     </div>
