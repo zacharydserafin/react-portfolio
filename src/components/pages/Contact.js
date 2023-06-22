@@ -45,7 +45,7 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (!validateEmail(email) || !name || !message) {
-      setAlert('please fill all required fields with valid input');
+      setAlert('Please fill all required fields with valid input');
       return;
     }
 
@@ -60,55 +60,66 @@ export default function Contact() {
   };
 
   return (
-    <div>
-      <form>
-        <input
-          value={email}
-          name="email"
-          className="form-control"
-          onChange={handleInputChange}
-          onBlur={handleInputBlur}
-          type="email"
-          placeholder="email"
-        />
-        {invalidEmail && (
-          <div>
-            <p className="form-text">{invalidEmail}</p>
-          </div>
-        )}
-        <input
-          value={name}
-          name="name"
-          className="form-control"
-          onChange={handleInputChange}
-          onBlur={handleInputBlur}
-          type="text"
-          placeholder="name"
-        />
-        {invalidName && (
-          <div>
-            <p className="form-text">{invalidName}</p>
-          </div>
-        )}
-        <input
-          value={message}
-          name="message"
-          className="form-control"
-          onChange={handleInputChange}
-          onBlur={handleInputBlur}
-          type="text"
-          placeholder="message"
-        />
-        {invalidMessage && (
-          <div>
-            <p className="form-text">{invalidMessage}</p>
-          </div>
-        )}
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+    <div className="m-5 p-3 card">
+      <div className="text-center">
+        <h3 className="mb-4 contact-title">Contact Me!</h3>
+      </div>
+      <form className="row g-3">
+        <div className="col-md-6">
+          <input
+            value={email}
+            name="email"
+            className="form-control contact-input"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            type="email"
+            placeholder="email"
+          />
+          {invalidEmail && (
+            <div>
+              <p className="form-text mb-0">{invalidEmail}</p>
+            </div>
+          )}
+        </div>
+        <div className="col-md-6">
+          <input
+            value={name}
+            name="name"
+            className="form-control contact-input"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            type="text"
+            placeholder="name"
+          />
+          {invalidName && (
+            <div>
+              <p className="form-text mb-0">{invalidName}</p>
+            </div>
+          )}
+        </div>
+        <div className="col-12">
+          <textarea
+            value={message}
+            name="message"
+            className="form-control contact-input"
+            onChange={handleInputChange}
+            onBlur={handleInputBlur}
+            type="text"
+            placeholder="message"
+          />
+          {invalidMessage && (
+            <div>
+              <p className="form-text mb-0">{invalidMessage}</p>
+            </div>
+          )}
+        </div>
+        <div className="col-12">
+          <button type="button" className="btn clickable" id="contact-button" onClick={handleFormSubmit}>Submit</button>
+        </div>
       </form>
       {alert && (
         <div>
-          <p>{alert}</p>
+          <p className="form-text mb-0">{alert}</p>
         </div>
       )}
     </div>

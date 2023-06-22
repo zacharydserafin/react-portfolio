@@ -1,0 +1,25 @@
+.about-card {
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-text {
+    color: var(--ultra-violet);
+}
+
+.about-accent {
+    color: var(--emerald);
+}
+
+#about-title {
+    color: var(--emerald);
+}
+
+@media screen and (max-width: 767.5px) {
+    .about-card {
+        margin: 20px;
+    }
+}

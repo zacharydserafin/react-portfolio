@@ -5,7 +5,7 @@ import '../styles/Main.css';
 export default function Nav({ currentPage, handlePageChange }) {
     return (
         <ul className="list-group list-group-horizontal">
-            <li className={`list-group-item list-group-item-action flex-fill text-center position-relative ${currentPage === 'About' ? 'violet-back' : 'plat-back'}`}>
+            <li className={`list-group-item list-group-item-action flex-fill text-center position-relative ${currentPage === 'About' ? 'green-back' : 'plat-back'}`}>
                 <a
                     href="#about"
                     onClick={() => handlePageChange('About')}
@@ -14,7 +14,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                     About Me
                 </a>
             </li>
-            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Contact' ? 'violet-back' : 'plat-back'}`}>
+            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Contact' ? 'green-back' : 'plat-back'}`}>
                 <a
                     href="#contact"
                     onClick={() => handlePageChange('Contact')}
@@ -23,7 +23,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                     Contact
                 </a>
             </li>
-            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Portfolio' ? 'violet-back' : 'plat-back'}`}>
+            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Portfolio' ? 'green-back' : 'plat-back'}`}>
                 <a
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -32,7 +32,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                     Portfolio
                 </a>
             </li>
-            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Resume' ? 'violet-back' : 'plat-back'}`}>
+            <li className={`list-group-item list-group-item-action flex-fill text-center ${currentPage === 'Resume' ? 'green-back' : 'plat-back'}`}>
                 <a
                     href="#resume"
                     onClick={() => handlePageChange('Resume')}
