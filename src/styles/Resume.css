@@ -1,0 +1,43 @@
+.resume-title {
+    display: inline-block;
+    font-size: 2em;
+    color: var(--emerald);
+    margin: 20px 0px;
+    padding: 20px;
+    border: 2px solid var(--emerald);
+}
+
+.resume-link {
+    color: var(--emerald);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.resume-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--platinum)
+}
+
+.resume-skills {
+    width: 300px;
+    margin: 0px 50px 50px;
+}
+
+.resume-skill-list .list-group-item {
+    border: 10px solid var(--powder-blue);
+}
+
+div.resume-skills div.resume-skill-header {
+    background-color: var(--powder-blue);
+    color: var(--jet);
+}
+
+ul.resume-skill-list li.skill-list-item {
+    background-color: var(--platinum);
+    color: var(--ultra-violet);
+}
+
+

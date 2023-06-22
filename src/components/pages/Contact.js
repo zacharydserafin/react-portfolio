@@ -69,7 +69,7 @@ export default function Contact() {
           <input
             value={email}
             name="email"
-            className="form-control"
+            className="form-control contact-input"
             onChange={handleInputChange}
             onBlur={handleInputBlur}
             type="email"
@@ -85,7 +85,7 @@ export default function Contact() {
           <input
             value={name}
             name="name"
-            className="form-control"
+            className="form-control contact-input"
             onChange={handleInputChange}
             onBlur={handleInputBlur}
             type="text"
@@ -101,7 +101,7 @@ export default function Contact() {
           <textarea
             value={message}
             name="message"
-            className="form-control"
+            className="form-control contact-input"
             onChange={handleInputChange}
             onBlur={handleInputBlur}
             type="text"
@@ -114,7 +114,7 @@ export default function Contact() {
           )}
         </div>
         <div className="col-12">
-          <button type="button" className="btn" id="contact-button" onClick={handleFormSubmit}>Submit</button>
+          <button type="button" className="btn clickable" id="contact-button" onClick={handleFormSubmit}>Submit</button>
         </div>
       </form>
       {alert && (

@@ -83,3 +83,8 @@ ul.list-group li.green-back {
 div.page div.card {
     background-color: var(--platinum);
 }
+
+.clickable:hover {
+    box-shadow: 1px 1px 10px var(--emerald);
+    cursor: pointer;
+}

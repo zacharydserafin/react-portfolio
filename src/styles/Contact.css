@@ -3,6 +3,10 @@
     border-radius: 5px;
 }
 
+.form-control::placeholder {
+    color: var(--ultra-violet) !important;
+}
+
 #contact-button {
     color: var(--emerald);
     border-color: var(--powder-blue);
