@@ -6,7 +6,7 @@ export default function Resume() {
     <div className="resume-page">
       <h2 className="resume-title">Resume</h2>
       <p>{'Download my resume '}
-        <a href='/assets/documents/resume.pdf' className="resume-link" download="Resume.pdf">here</a>
+        <a href='./assets/documents/resume.pdf' className="resume-link" download="Resume.pdf">here</a>
       </p>
       <div className="card resume-skills">
         <div className="card-header resume-skill-header">
