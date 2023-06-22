@@ -16,6 +16,10 @@ This is a React-based portfolio, designed to showcase the work of full-stack web
 
 Use the navigation tabs to move seamlessly between pages. On the 'About' tab, you can learn more about Zachary and what there is to see and do on the other pages of the portfolio. Under the 'Contact' tab, you can enter your name and email, along with any question, comment, or opportunity you may want to pass along to him. Next, on the 'Portfolio' tab, you can see a list of featured projects, along with links to the deployed applications and their respective GitHub repositories. Finally, under the 'Resume' tab, you can find a list of skills that Zachary brings to the table, along with a link to a downloadable version of his resume.
 
+<img src="./public/assets/images/react-portfolio-screenshot.png" alt="Screenshot of deployed application">
+
+<a href="https://zacharydserafin.github.io/react-portfolio/#about">Link to Deployed Application</a>
+
 ## <a id="license"></a>License 
 
 This project's license is [MIT]
