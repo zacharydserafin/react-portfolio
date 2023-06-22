@@ -4,7 +4,7 @@ import '../../styles/About.css';
 export default function About() {
   return (
     <div className="card about-card">
-      <div className="row g-0">
+      <div className="row g-0 flex-row-reverse">
         <div className="col-md-8">
           <div className="card-body">
             <h3 className="card-title" id="about-title">About Me</h3>
@@ -12,7 +12,7 @@ export default function About() {
           </div>
         </div>
         <div className="col-md-4">
-          <img src="./assets/images/profile-image.jpg" className="img-fluid rounded-start" alt="Zachary D Serafin"/>
+          <img src="./assets/images/profile-image.jpg" className="img-fluid rounded" alt="Zachary D Serafin"/>
         </div>
       </div>
     </div>
