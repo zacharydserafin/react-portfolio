@@ -44,6 +44,13 @@ const projects = [
     title: "planner-app",
     github: "https://github.com/zacharydserafin/planner-app",
     deployed: "https://zacharydserafin.github.io/planner-app/"
+  },
+  {
+    id: 7,
+    src: "./assets/images/mernia-screenshot.png",
+    title: "Chronicles-of-Mernia",
+    github: "https://github.com/kpetrosky/Chronicles-of-Mernia",
+    deployed: "https://zacharydserafin.github.io/react-portfolio/#about"
   }
 ]
 
