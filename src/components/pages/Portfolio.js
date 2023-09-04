@@ -5,52 +5,52 @@ import '../../styles/Portfolio.css';
 const projects = [
   {
     id: 1,
-    src: "./assets/images/Project-1-Screenshot.jpg",
-    title: "Drinkivity",
-    github: "https://github.com/zacharydserafin/drinkivity",
-    deployed: "https://zacharydserafin.github.io/drinkivity/"
+    src: "./assets/images/mernia-screenshot.png",
+    title: "Chronicles-of-Mernia",
+    github: "https://github.com/kpetrosky/Chronicles-of-Mernia",
+    deployed: "https://mighty-depths-85532-6b358948c948.herokuapp.com/"
   },
   {
     id: 2,
-    src: "./assets/images/Project-2-Screenshot.png",
-    title: "OnlyRecipes",
-    github: "https://github.com/MarkellDrake/OnlyRecipes",
-    deployed: "https://onlyrecipes.herokuapp.com/"
-  },
-  {
-    id: 3,
     src: "./assets/images/tech-blog-screenshot.png",
     title: "tech-blog",
     github: "https://github.com/zacharydserafin/tech-blog",
     deployed: "https://sheltered-coast-95360.herokuapp.com/"
   },
   {
+    id: 3,
+    src: "./assets/images/Project-1-Screenshot.jpg",
+    title: "Drinkivity",
+    github: "https://github.com/zacharydserafin/drinkivity",
+    deployed: "https://zacharydserafin.github.io/drinkivity/"
+  },
+  {
     id: 4,
+    src: "./assets/images/Project-2-Screenshot.png",
+    title: "OnlyRecipes",
+    github: "https://github.com/MarkellDrake/OnlyRecipes",
+    deployed: "https://onlyrecipes.herokuapp.com/"
+  },
+  {
+    id: 5,
     src: "./assets/images/weather-app-screenshot.png",
     title: "weather-app",
     github: "https://github.com/zacharydserafin/weather-app",
     deployed: "https://zacharydserafin.github.io/weather-app/"
   },
   {
-    id: 5,
+    id: 6,
     src: "./assets/images/javascript-quiz-screenshot.png",
     title: "javascript-quiz",
     github: "https://github.com/zacharydserafin/javascript-quiz",
     deployed: "https://zacharydserafin.github.io/javascript-quiz/"
   },
   {
-    id: 6,
+    id: 7,
     src: "./assets/images/planner-app-screenshot.png",
     title: "planner-app",
     github: "https://github.com/zacharydserafin/planner-app",
     deployed: "https://zacharydserafin.github.io/planner-app/"
-  },
-  {
-    id: 7,
-    src: "./assets/images/mernia-screenshot.png",
-    title: "Chronicles-of-Mernia",
-    github: "https://github.com/kpetrosky/Chronicles-of-Mernia",
-    deployed: "https://zacharydserafin.github.io/react-portfolio/#about"
   }
 ]
 
