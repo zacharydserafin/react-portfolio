@@ -62,7 +62,8 @@ export default function Contact() {
   return (
     <div className="m-5 p-3 card">
       <div className="text-center">
-        <h3 className="mb-4 contact-title">Contact Me!</h3>
+        <h3 className="contact-title">Contact Me!</h3>
+        <p className="mb-4">zacharydserafin@gmail.com</p>
       </div>
       <form className="row g-3">
         <div className="col-md-6">
